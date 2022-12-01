@@ -56,17 +56,12 @@ input{
     color: white;
     font-size: 2.5rem;
 }
-/* .bxn{
-    padding: 16px 8px;
-    font-size: 25px;
+@media(max-width: 768px){
+    .container{
+        justify-content: center;
+        align-content: center;
+        display: grid;
+        min-height: 100vh;
+        grid-template-columns: repeat(4, 70px);
+        grid-template-rows: minmax(120px, auto)repeat(5, 70px);
 }
-.pp{
-    padding: 16px;
-}
-.button {
-    border: 0.5px solid #999;
-    line-height: 100px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-} */
