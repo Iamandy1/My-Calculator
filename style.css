@@ -65,3 +65,4 @@ input{
         grid-template-columns: repeat(4, 70px);
         grid-template-rows: minmax(120px, auto)repeat(5, 70px);
 }
+}
